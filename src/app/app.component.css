@@ -1,0 +1,24 @@
+/*顶部导航*/
+header{
+  background-color: #fff;
+  box-shadow: 0 1px 3px #999;
+}
+header,
+header>nav,
+header>nav>div{
+  height: 90px;
+  line-height: 90px;
+}
+header>nav{
+  display: inline-block;
+}
+header>nav>div{
+  float: left;
+  padding: 0 16px;
+  font-size: 14px;
+  cursor: pointer;
+}
+header>nav>div:hover{
+  background-color: #44daff;
+  color: #fff;
+}

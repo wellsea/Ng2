@@ -1,1 +1,64 @@
 /* You can add global styles to this file, and also import other style files */
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  font-family: "微软雅黑", Microsoft YaHei, Helvetica, '宋体',Tahoma, Arial, sans-serif;
+  color: #555;
+  background-color: #fafcff;
+}
+em, i {
+  font-style: normal;
+}
+strong {
+  font-weight: normal;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+a {
+  text-decoration: none!important;
+  color: #555;
+  font-family: Helvetica,Microsoft YaHei, '宋体',Tahoma, Arial, sans-serif;
+}
+a:hover {
+  text-decoration: none;
+}
+ul, ol {
+  list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: Helvetica,Microsoft YaHei,'宋体';
+}
+img {
+  border: none;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.omg{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.tac{
+  text-align: center;
+}
+.tal{
+  text-align: left;
+}
+.tar{
+  text-align: right;
+}
