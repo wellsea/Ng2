@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {RouterModule, Routes, RouterLinkActive} from "@angular/router";
+import {RouterModule, Routes} from "@angular/router";
+
+import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
 
 import {CommonComponent} from "../common/common.component";
 import {PartnerComponent} from "../partner/partner.component";
@@ -29,7 +31,8 @@ const appRoutes: Routes=[
 @NgModule({
   imports: [
     CommonModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    NgbModule.forRoot()
   ],
   exports:[RouterModule],
   declarations: []

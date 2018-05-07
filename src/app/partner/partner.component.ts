@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./partner.component.css']
 })
 export class PartnerComponent implements OnInit {
-
+  title:string = '链库合伙人';
   constructor() { }
 
   ngOnInit() {
