@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {RouterModule, Routes} from "@angular/router";
+import {RouterModule, Routes, RouterLinkActive} from "@angular/router";
 
 import {CommonComponent} from "../common/common.component";
 import {PartnerComponent} from "../partner/partner.component";
